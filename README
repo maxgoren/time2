@@ -1,0 +1,31 @@
+#
+#   time2 v0.1
+#   time2.c
+#   (c) Max Goren 2020
+#
+
+A simeple tool which obtains the date & time in elapsed seconds since 
+the start of UNIX time and presents in a user friendly format. Additionally
+the local system date & time can be checked against a remote time server.
+If the user so desires, the local system date & time can be set according
+to a value obtained from a remote time server.
+Free and open source, distributed and available under the MIT free License.
+
+To install:
+
+   make
+   make install <or> run locally via ./time2
+
+To use:
+   /usr/local/bin/time2 
+   or
+   /usr/local/bin/time2 -v   - for a more detailed output.
+   or
+   /usr/local/bin/time2 -r <remote time server   - checks against server
+   or
+   /usr/local/bin/time2 -sr <remote time server>  -sets local system time from remote server.
+
+
+Enjoy :)
+
+Questions, comments, love, hate or bugs - maxgoren@icloud.com
